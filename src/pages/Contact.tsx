@@ -10,7 +10,7 @@ export default function Contact() {
     const whatsappMessage = encodeURIComponent(
       `Bonjour Président,\n\nJe suis ${formData.name}.\n\n${formData.message}`
     );
-    window.open(`https://wa.me/22990000000?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/22996494918?text=${whatsappMessage}`, '_blank');
   };
 
   const headerStyles: CSSProperties = {
@@ -180,12 +180,12 @@ export default function Contact() {
             <div style={infoItemStyles}>
               <p style={infoLabelStyles}>WhatsApp</p>
               <a 
-                href="https://wa.me/22990000000" 
+                href="https://wa.me/22996494918" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={linkStyles}
               >
-                <p style={infoValueStyles}>+229 90 00 00 00</p>
+                <p style={infoValueStyles}>+229 96 49 49 18</p>
               </a>
             </div>
 

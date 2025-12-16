@@ -77,12 +77,12 @@ export default function Footer() {
           <div>
             <h4 style={sectionTitleStyles}>Contact</h4>
             <a 
-              href="https://wa.me/22990000000" 
+              href="https://wa.me/22996494918" 
               target="_blank" 
               rel="noopener noreferrer"
               style={linkStyles}
             >
-              WhatsApp: +229 90 00 00 00
+              WhatsApp: +229 96 49 49 18
             </a>
             <a href="mailto:contact@presidentdjangoun.com" style={linkStyles}>
               contact@presidentdjangoun.com
@@ -118,7 +118,7 @@ export default function Footer() {
               </svg>
             </a>
             <a 
-              href="https://wa.me/22990000000" 
+              href="https://wa.me/22996494918" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ color: 'rgba(250, 250, 250, 0.7)', transition: 'color 0.3s ease' }}

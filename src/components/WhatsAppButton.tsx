@@ -7,7 +7,7 @@ interface WhatsAppButtonProps {
   children?: React.ReactNode;
 }
 
-const WHATSAPP_NUMBER = '22990000000';
+const WHATSAPP_NUMBER = '22996494918';
 
 export default function WhatsAppButton({ 
   message = 'Bonjour Président, je suis intéressé(e) par vos créations.',

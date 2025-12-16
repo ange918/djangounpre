@@ -125,7 +125,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             Voir
           </Link>
           <a
-            href={`https://wa.me/22990000000?text=${whatsappMessage}`}
+            href={`https://wa.me/22996494918?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
