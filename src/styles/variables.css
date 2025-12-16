@@ -1,0 +1,24 @@
+:root {
+  --color-gold: #B8860B;
+  --color-gold-light: #D4A84B;
+  --color-brown-wax: #8B4513;
+  --color-black-deep: #0A0A0A;
+  --color-white-cream: #FAFAFA;
+  --color-gray-light: #E5E5E5;
+  --color-gray-medium: #888888;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Montserrat', 'Helvetica Neue', sans-serif;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.4s ease;
+
+  --container-max: 1400px;
+  --border-radius: 4px;
+}
