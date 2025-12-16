@@ -38,15 +38,15 @@ export default function Contact() {
   };
 
   const sectionStyles: CSSProperties = {
-    padding: '6rem 2rem',
+    padding: 'clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem)',
     maxWidth: '1200px',
     margin: '0 auto'
   };
 
   const gridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
-    gap: '4rem'
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))',
+    gap: 'clamp(2rem, 5vw, 4rem)'
   };
 
   const infoSectionStyles: CSSProperties = {
@@ -90,7 +90,7 @@ export default function Contact() {
 
   const formStyles: CSSProperties = {
     backgroundColor: '#fff',
-    padding: '3rem',
+    padding: 'clamp(1.5rem, 4vw, 3rem)',
     boxShadow: '0 2px 30px rgba(0, 0, 0, 0.05)'
   };
 

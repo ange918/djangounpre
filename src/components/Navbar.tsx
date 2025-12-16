@@ -19,7 +19,7 @@ export default function Navbar() {
   const containerStyles: CSSProperties = {
     maxWidth: '1400px',
     margin: '0 auto',
-    padding: '1rem 2rem',
+    padding: '1rem clamp(1rem, 4vw, 2rem)',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center'
@@ -74,7 +74,7 @@ export default function Navbar() {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(250, 250, 250, 0.98)',
+    backgroundColor: '#000000',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -83,6 +83,18 @@ export default function Navbar() {
     opacity: isMenuOpen ? 1 : 0,
     visibility: isMenuOpen ? 'visible' : 'hidden',
     transition: 'all 0.3s ease'
+  };
+
+  const mobileLinkStyles: CSSProperties = {
+    fontFamily: "'Montserrat', sans-serif",
+    fontSize: '1rem',
+    fontWeight: 500,
+    textTransform: 'uppercase',
+    letterSpacing: '0.15em',
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    transition: 'color 0.3s ease',
+    position: 'relative'
   };
 
   return (
@@ -172,28 +184,40 @@ export default function Navbar() {
       <div style={mobileMenuStyles} className="mobile-menu">
         <NavLink 
           to="/" 
-          style={linkStyles}
+          style={({ isActive }) => ({
+            ...mobileLinkStyles,
+            color: isActive ? '#B8860B' : '#FFFFFF'
+          })}
           onClick={() => setIsMenuOpen(false)}
         >
           Accueil
         </NavLink>
         <NavLink 
           to="/collections" 
-          style={linkStyles}
+          style={({ isActive }) => ({
+            ...mobileLinkStyles,
+            color: isActive ? '#B8860B' : '#FFFFFF'
+          })}
           onClick={() => setIsMenuOpen(false)}
         >
           Collections
         </NavLink>
         <NavLink 
           to="/a-propos" 
-          style={linkStyles}
+          style={({ isActive }) => ({
+            ...mobileLinkStyles,
+            color: isActive ? '#B8860B' : '#FFFFFF'
+          })}
           onClick={() => setIsMenuOpen(false)}
         >
           À Propos
         </NavLink>
         <NavLink 
           to="/contact" 
-          style={linkStyles}
+          style={({ isActive }) => ({
+            ...mobileLinkStyles,
+            color: isActive ? '#B8860B' : '#FFFFFF'
+          })}
           onClick={() => setIsMenuOpen(false)}
         >
           Contact

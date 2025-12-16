@@ -5,7 +5,7 @@ export default function Footer() {
   const footerStyles: CSSProperties = {
     backgroundColor: '#0A0A0A',
     color: '#FAFAFA',
-    padding: '5rem 2rem 2rem'
+    padding: 'clamp(3rem, 6vw, 5rem) clamp(1rem, 4vw, 2rem) clamp(1rem, 3vw, 2rem)'
   };
 
   const containerStyles: CSSProperties = {
@@ -15,9 +15,9 @@ export default function Footer() {
 
   const gridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-    gap: '3rem',
-    marginBottom: '4rem'
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))',
+    gap: 'clamp(1.5rem, 4vw, 3rem)',
+    marginBottom: 'clamp(2rem, 5vw, 4rem)'
   };
 
   const sectionTitleStyles: CSSProperties = {

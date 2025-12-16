@@ -27,17 +27,17 @@ export default function About() {
   };
 
   const sectionStyles: CSSProperties = {
-    padding: '6rem 2rem',
+    padding: 'clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem)',
     maxWidth: '1200px',
     margin: '0 auto'
   };
 
   const gridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
-    gap: '4rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))',
+    gap: 'clamp(2rem, 5vw, 4rem)',
     alignItems: 'center',
-    marginBottom: '6rem'
+    marginBottom: 'clamp(3rem, 8vw, 6rem)'
   };
 
   const imageStyles: CSSProperties = {
@@ -60,14 +60,14 @@ export default function About() {
 
   const quoteStyles: CSSProperties = {
     fontFamily: "'Playfair Display', serif",
-    fontSize: 'clamp(1.5rem, 3vw, 2rem)',
+    fontSize: 'clamp(1.25rem, 3vw, 2rem)',
     fontStyle: 'italic',
     color: '#B8860B',
     textAlign: 'center',
     lineHeight: 1.6,
-    padding: '4rem 2rem',
+    padding: 'clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 2rem)',
     backgroundColor: '#f8f7f5',
-    margin: '4rem 0'
+    margin: 'clamp(2rem, 5vw, 4rem) 0'
   };
 
   const valuesGridStyles: CSSProperties = {
@@ -100,7 +100,7 @@ export default function About() {
   };
 
   const ctaSectionStyles: CSSProperties = {
-    padding: '6rem 2rem',
+    padding: 'clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem)',
     backgroundColor: '#0A0A0A',
     textAlign: 'center'
   };

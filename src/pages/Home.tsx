@@ -36,7 +36,7 @@ export default function Home() {
     position: 'relative',
     zIndex: 1,
     textAlign: 'center',
-    padding: '0 2rem',
+    padding: '0 clamp(1rem, 4vw, 2rem)',
     maxWidth: '900px'
   };
 
@@ -70,7 +70,7 @@ export default function Home() {
   };
 
   const sectionStyles: CSSProperties = {
-    padding: '6rem 2rem'
+    padding: 'clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem)'
   };
 
   const containerStyles: CSSProperties = {
@@ -111,8 +111,8 @@ export default function Home() {
 
   const aboutGridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
-    gap: '4rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 350px), 1fr))',
+    gap: '2rem',
     alignItems: 'center'
   };
 
@@ -140,7 +140,7 @@ export default function Home() {
   };
 
   const ctaSectionStyles: CSSProperties = {
-    padding: '8rem 2rem',
+    padding: 'clamp(4rem, 10vw, 8rem) clamp(1rem, 4vw, 2rem)',
     backgroundColor: '#0A0A0A',
     textAlign: 'center'
   };

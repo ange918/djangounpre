@@ -38,7 +38,7 @@ export default function Collections() {
   };
 
   const sectionStyles: CSSProperties = {
-    padding: '4rem 2rem',
+    padding: 'clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 2rem)',
     maxWidth: '1400px',
     margin: '0 auto'
   };
