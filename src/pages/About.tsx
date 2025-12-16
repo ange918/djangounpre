@@ -149,8 +149,7 @@ export default function About() {
         </div>
 
         <blockquote style={quoteStyles}>
-          « Mon travail est un pont entre les mondes. Je ne crée pas seulement des 
-          vêtements, je tisse des histoires qui traversent les frontières. »
+          « La vérité n'a pas besoin d'avocat, les preuves sont là. »
         </blockquote>
 
         <div style={gridStyles}>
