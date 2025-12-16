@@ -1,4 +1,5 @@
-import { useState, CSSProperties, FormEvent } from 'react';
+import { useState } from 'react';
+import type { CSSProperties, FormEvent } from 'react';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function Contact() {
@@ -44,7 +45,7 @@ export default function Contact() {
 
   const gridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
     gap: '4rem'
   };
 

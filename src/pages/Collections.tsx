@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
 

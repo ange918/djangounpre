@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 
 export default function NotFound() {
   const containerStyles: CSSProperties = {

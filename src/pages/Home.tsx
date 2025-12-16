@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 import { getFeaturedProducts, testimonials } from '../data/products';
 import ProductCard from '../components/ProductCard';
 import WhatsAppButton from '../components/WhatsAppButton';

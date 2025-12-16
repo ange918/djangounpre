@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function About() {
@@ -34,7 +34,7 @@ export default function About() {
 
   const gridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
     gap: '4rem',
     alignItems: 'center',
     marginBottom: '6rem'

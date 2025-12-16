@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import { CSSProperties, useState } from 'react';
-import { Product } from '../data/products';
+import { useState } from 'react';
+import type { CSSProperties } from 'react';
+import type { Product } from '../data/products';
 
 interface ProductCardProps {
   product: Product;

@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
-import { useState, CSSProperties } from 'react';
+import { useState } from 'react';
+import type { CSSProperties } from 'react';
 import { getProductBySlug } from '../data/products';
 import WhatsAppButton from '../components/WhatsAppButton';
 
@@ -46,7 +47,7 @@ export default function ProductDetail() {
 
   const gridStyles: CSSProperties = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 400px), 1fr))',
     gap: '4rem',
     alignItems: 'start'
   };
