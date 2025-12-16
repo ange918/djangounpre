@@ -115,7 +115,7 @@ export default function About() {
       <section style={sectionStyles}>
         <div style={gridStyles}>
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+            src="https://i.ibb.co/7dsFT6f4/MG-3209.jpg"
             alt="Le Président Djangoun"
             style={imageStyles}
           />
@@ -181,7 +181,7 @@ export default function About() {
             </p>
           </div>
           <img 
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+            src="https://i.ibb.co/7dsFT6f4/MG-3209.jpg"
             alt="Atelier du Président Djangoun"
             style={imageStyles}
           />

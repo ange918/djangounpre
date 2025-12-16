@@ -72,7 +72,6 @@ export default function Footer() {
             <h4 style={sectionTitleStyles}>Collections</h4>
             <Link to="/collections" style={linkStyles}>Homme</Link>
             <Link to="/collections" style={linkStyles}>Femme</Link>
-            <Link to="/collections" style={linkStyles}>Mixte</Link>
           </div>
 
           <div>

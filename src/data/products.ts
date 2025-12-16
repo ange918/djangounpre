@@ -2,7 +2,7 @@ export interface Product {
   id: number;
   slug: string;
   name: string;
-  category: 'Homme' | 'Femme' | 'Mixte';
+  category: 'Homme' | 'Femme';
   price: number;
   priceFormatted: string;
   description: string;
@@ -29,9 +29,9 @@ export const products: Product[] = [
     ],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80'
+      'https://i.ibb.co/CpTJNWh2/MG-1142.jpg',
+      'https://i.ibb.co/GQZcN24f/MG-1147.jpg',
+      'https://i.ibb.co/MxdyhC6y/MG-1160.jpg'
     ],
     featured: true
   },
@@ -51,9 +51,9 @@ export const products: Product[] = [
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1590330297626-d7aff25a0431?w=800&q=80',
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80',
-      'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80'
+      'https://i.ibb.co/rr2VS6v/MG-8500.jpg',
+      'https://i.ibb.co/4ZS7nKDf/MG-8513.jpg',
+      'https://i.ibb.co/1YcrkpyH/MG-8514.jpg'
     ],
     featured: true
   },
@@ -73,9 +73,9 @@ export const products: Product[] = [
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80',
-      'https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=800&q=80',
-      'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&q=80'
+      'https://i.ibb.co/RpQGR6vj/MG-8522.jpg',
+      'https://i.ibb.co/gF9NVVFK/MG-8530.jpg',
+      'https://i.ibb.co/vxQVx2nM/MG-8618-2.jpg'
     ],
     featured: true
   },
@@ -95,9 +95,9 @@ export const products: Product[] = [
     ],
     sizes: ['XS', 'S', 'M', 'L'],
     images: [
-      'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80',
-      'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80',
-      'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80'
+      'https://i.ibb.co/7dNN8ZWf/MG-8632-1.jpg',
+      'https://i.ibb.co/v40cVzRK/MG-9360.jpg',
+      'https://i.ibb.co/4w4ZLFJ2/IMG-0021.jpg'
     ],
     featured: true
   },
@@ -105,10 +105,10 @@ export const products: Product[] = [
     id: 5,
     slug: 'veste-heritage',
     name: 'Veste Héritage',
-    category: 'Mixte',
+    category: 'Homme',
     price: 120000,
     priceFormatted: '120 000 FCFA',
-    description: 'Veste unisexe d\'exception, fusion parfaite entre tailleur européen et textiles africains. Une pièce d\'investissement.',
+    description: 'Veste d\'exception, fusion parfaite entre tailleur européen et textiles africains. Une pièce d\'investissement.',
     details: [
       'Coupe structurée',
       'Wax et lin mélangés',
@@ -117,9 +117,9 @@ export const products: Product[] = [
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80'
+      'https://i.ibb.co/PGBc8Tzv/IMG-0026.jpg',
+      'https://i.ibb.co/N22nVNff/IMG-0028.jpg',
+      'https://i.ibb.co/CpTJNWh2/MG-1142.jpg'
     ],
     featured: true
   },
@@ -139,9 +139,9 @@ export const products: Product[] = [
     ],
     sizes: ['XS', 'S', 'M', 'L'],
     images: [
-      'https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80',
-      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80',
-      'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=800&q=80'
+      'https://i.ibb.co/GQZcN24f/MG-1147.jpg',
+      'https://i.ibb.co/MxdyhC6y/MG-1160.jpg',
+      'https://i.ibb.co/rr2VS6v/MG-8500.jpg'
     ],
     featured: true
   },
@@ -161,9 +161,9 @@ export const products: Product[] = [
     ],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     images: [
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
-      'https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800&q=80',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80'
+      'https://i.ibb.co/4ZS7nKDf/MG-8513.jpg',
+      'https://i.ibb.co/1YcrkpyH/MG-8514.jpg',
+      'https://i.ibb.co/RpQGR6vj/MG-8522.jpg'
     ],
     featured: false
   },
@@ -171,7 +171,7 @@ export const products: Product[] = [
     id: 8,
     slug: 'tunique-sahel',
     name: 'Tunique Sahel',
-    category: 'Mixte',
+    category: 'Homme',
     price: 55000,
     priceFormatted: '55 000 FCFA',
     description: 'Tunique ample et élégante inspirée des tenues sahéliennes. Confort absolu et allure distinguée.',
@@ -183,9 +183,9 @@ export const products: Product[] = [
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     images: [
-      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80',
-      'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80',
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80'
+      'https://i.ibb.co/gF9NVVFK/MG-8530.jpg',
+      'https://i.ibb.co/vxQVx2nM/MG-8618-2.jpg',
+      'https://i.ibb.co/7dNN8ZWf/MG-8632-1.jpg'
     ],
     featured: false
   }
@@ -205,20 +205,20 @@ export const testimonials = [
     name: 'Aminata Diallo',
     role: 'Directrice Artistique, Paris',
     text: 'Le Président Djangoun a créé ma tenue pour les Fashion Awards. Une pièce magistrale qui a fait sensation sur le tapis rouge.',
-    image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80'
+    image: 'https://i.ibb.co/rr2VS6v/MG-8500.jpg'
   },
   {
     id: 2,
     name: 'Kofi Mensah',
     role: 'Entrepreneur, Accra',
     text: 'Chaque costume du Président raconte une histoire. Je ne porte plus que ses créations pour mes réunions internationales.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80'
+    image: 'https://i.ibb.co/CpTJNWh2/MG-1142.jpg'
   },
   {
     id: 3,
     name: 'Sophie Laurent',
     role: 'Journaliste Mode, Vogue Afrique',
     text: 'Djangoun représente l\'avenir de la mode africaine : sophistiquée, consciente de ses racines, résolument moderne.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80'
+    image: 'https://i.ibb.co/4ZS7nKDf/MG-8513.jpg'
   }
 ];

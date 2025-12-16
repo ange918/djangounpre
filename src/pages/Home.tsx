@@ -26,7 +26,7 @@ export default function Home() {
   const heroBgStyles: CSSProperties = {
     position: 'absolute',
     inset: 0,
-    backgroundImage: 'url(https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80)',
+    backgroundImage: 'url(https://i.ibb.co/7dsFT6f4/MG-3209.jpg)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 0.6
@@ -199,7 +199,7 @@ export default function Home() {
         <div style={containerStyles}>
           <div style={aboutGridStyles}>
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+              src="https://i.ibb.co/7dsFT6f4/MG-3209.jpg"
               alt="Le Président Djangoun"
               style={aboutImageStyles}
             />

@@ -3,7 +3,7 @@ import type { CSSProperties } from 'react';
 import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
 
-type CategoryFilter = 'Tous' | 'Homme' | 'Femme' | 'Mixte';
+type CategoryFilter = 'Tous' | 'Homme' | 'Femme';
 
 export default function Collections() {
   const [activeFilter, setActiveFilter] = useState<CategoryFilter>('Tous');
@@ -72,7 +72,7 @@ export default function Collections() {
     gap: '2rem'
   };
 
-  const filters: CategoryFilter[] = ['Tous', 'Homme', 'Femme', 'Mixte'];
+  const filters: CategoryFilter[] = ['Tous', 'Homme', 'Femme'];
 
   return (
     <>
