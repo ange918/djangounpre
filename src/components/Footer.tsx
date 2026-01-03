@@ -25,7 +25,7 @@ export default function Footer() {
     fontSize: '1.25rem',
     fontWeight: 500,
     marginBottom: '1.5rem',
-    color: '#B8860B'
+    color: '#722F37'
   };
 
   const linkStyles: CSSProperties = {
@@ -53,7 +53,7 @@ export default function Footer() {
         <div style={gridStyles}>
           <div>
             <h3 style={{ ...sectionTitleStyles, color: '#FAFAFA', fontFamily: "'Playfair Display', serif", fontSize: '1.5rem' }}>
-              Le <span style={{ color: '#B8860B' }}>Président</span> Djangoun
+              Le <span style={{ color: '#722F37' }}>Président</span> Djangoun
             </h3>
             <p style={{ color: 'rgba(250, 250, 250, 0.7)', lineHeight: 1.8, fontSize: '0.9rem' }}>
               La haute couture africaine réinventée. Des créations uniques qui célèbrent l'héritage et embrassent la modernité.

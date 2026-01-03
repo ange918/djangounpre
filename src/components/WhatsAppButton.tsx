@@ -28,13 +28,13 @@ export default function WhatsAppButton({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    boxShadow: '0 4px 20px rgba(37, 211, 102, 0.4)',
+    boxShadow: '0 4px 20px rgba(114, 47, 55, 0.4)',
     zIndex: 1000,
     transition: 'transform 0.3s ease, box-shadow 0.3s ease'
   } : {};
 
   const buttonStyles: CSSProperties = {
-    backgroundColor: '#25D366',
+    backgroundColor: '#722F37',
     color: 'white',
     border: 'none',
     cursor: 'pointer',
@@ -61,11 +61,11 @@ export default function WhatsAppButton({
       style={buttonStyles}
       onMouseEnter={(e) => {
         e.currentTarget.style.transform = 'translateY(-3px)';
-        e.currentTarget.style.boxShadow = '0 6px 25px rgba(37, 211, 102, 0.5)';
+        e.currentTarget.style.boxShadow = '0 6px 25px rgba(114, 47, 55, 0.5)';
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform = 'translateY(0)';
-        e.currentTarget.style.boxShadow = floating ? '0 4px 20px rgba(37, 211, 102, 0.4)' : 'none';
+        e.currentTarget.style.boxShadow = floating ? '0 4px 20px rgba(114, 47, 55, 0.4)' : 'none';
       }}
     >
       <svg width={floating ? 28 : 20} height={floating ? 28 : 20} viewBox="0 0 24 24" fill="currentColor">

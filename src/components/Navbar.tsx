@@ -35,7 +35,7 @@ export default function Navbar() {
   };
 
   const logoAccentStyles: CSSProperties = {
-    color: '#B8860B'
+    color: '#722F37'
   };
 
   const menuStyles: CSSProperties = {
@@ -110,7 +110,7 @@ export default function Navbar() {
               to="/" 
               style={({ isActive }) => ({
                 ...linkStyles,
-                color: isActive ? '#B8860B' : '#0A0A0A'
+                color: isActive ? '#722F37' : '#0A0A0A'
               })}
             >
               Accueil
@@ -121,7 +121,7 @@ export default function Navbar() {
               to="/collections" 
               style={({ isActive }) => ({
                 ...linkStyles,
-                color: isActive ? '#B8860B' : '#0A0A0A'
+                color: isActive ? '#722F37' : '#0A0A0A'
               })}
             >
               Collections
@@ -132,7 +132,7 @@ export default function Navbar() {
               to="/a-propos" 
               style={({ isActive }) => ({
                 ...linkStyles,
-                color: isActive ? '#B8860B' : '#0A0A0A'
+                color: isActive ? '#722F37' : '#0A0A0A'
               })}
             >
               À Propos
@@ -143,7 +143,7 @@ export default function Navbar() {
               to="/contact" 
               style={({ isActive }) => ({
                 ...linkStyles,
-                color: isActive ? '#B8860B' : '#0A0A0A'
+                color: isActive ? '#722F37' : '#0A0A0A'
               })}
             >
               Contact
@@ -186,7 +186,7 @@ export default function Navbar() {
           to="/" 
           style={({ isActive }) => ({
             ...mobileLinkStyles,
-            color: isActive ? '#B8860B' : '#FFFFFF'
+            color: isActive ? '#722F37' : '#FFFFFF'
           })}
           onClick={() => setIsMenuOpen(false)}
         >
@@ -196,7 +196,7 @@ export default function Navbar() {
           to="/collections" 
           style={({ isActive }) => ({
             ...mobileLinkStyles,
-            color: isActive ? '#B8860B' : '#FFFFFF'
+            color: isActive ? '#722F37' : '#FFFFFF'
           })}
           onClick={() => setIsMenuOpen(false)}
         >
@@ -206,7 +206,7 @@ export default function Navbar() {
           to="/a-propos" 
           style={({ isActive }) => ({
             ...mobileLinkStyles,
-            color: isActive ? '#B8860B' : '#FFFFFF'
+            color: isActive ? '#722F37' : '#FFFFFF'
           })}
           onClick={() => setIsMenuOpen(false)}
         >
@@ -216,7 +216,7 @@ export default function Navbar() {
           to="/contact" 
           style={({ isActive }) => ({
             ...mobileLinkStyles,
-            color: isActive ? '#B8860B' : '#FFFFFF'
+            color: isActive ? '#722F37' : '#FFFFFF'
           })}
           onClick={() => setIsMenuOpen(false)}
         >
