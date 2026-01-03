@@ -59,8 +59,8 @@ export default function Collections() {
     textTransform: 'uppercase',
     letterSpacing: '0.1em',
     border: '1px solid',
-    borderColor: isActive ? '#B8860B' : '#0A0A0A',
-    backgroundColor: isActive ? '#B8860B' : 'transparent',
+    borderColor: isActive ? '#722F37' : '#0A0A0A',
+    backgroundColor: isActive ? '#722F37' : 'transparent',
     color: isActive ? '#FAFAFA' : '#0A0A0A',
     cursor: 'pointer',
     transition: 'all 0.3s ease'

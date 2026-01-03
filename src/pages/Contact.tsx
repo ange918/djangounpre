@@ -34,7 +34,7 @@ export default function Contact() {
     fontWeight: 400,
     letterSpacing: '0.2em',
     textTransform: 'uppercase',
-    color: '#B8860B'
+    color: '#722F37'
   };
 
   const sectionStyles: CSSProperties = {
@@ -71,7 +71,7 @@ export default function Contact() {
     fontWeight: 500,
     textTransform: 'uppercase',
     letterSpacing: '0.15em',
-    color: '#B8860B',
+    color: '#722F37',
     marginBottom: '0.5rem'
   };
 
@@ -142,7 +142,7 @@ export default function Contact() {
     fontWeight: 600,
     textTransform: 'uppercase',
     letterSpacing: '0.15em',
-    backgroundColor: '#25D366',
+    backgroundColor: '#722F37',
     color: '#fff',
     border: 'none',
     cursor: 'pointer',

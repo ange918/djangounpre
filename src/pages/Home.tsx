@@ -46,7 +46,7 @@ export default function Home() {
     fontWeight: 400,
     letterSpacing: '0.3em',
     textTransform: 'uppercase',
-    color: '#B8860B',
+    color: '#722F37',
     marginBottom: '1.5rem'
   };
 
@@ -94,7 +94,7 @@ export default function Home() {
     letterSpacing: '0.2em',
     textTransform: 'uppercase',
     textAlign: 'center',
-    color: '#B8860B',
+    color: '#722F37',
     marginBottom: '4rem'
   };
 
@@ -225,7 +225,7 @@ export default function Home() {
                 fontFamily: "'Playfair Display', serif",
                 fontSize: '1.25rem',
                 fontStyle: 'italic',
-                color: '#B8860B',
+                color: '#722F37',
                 marginBottom: '2rem',
                 lineHeight: 1.6
               }}>
@@ -236,7 +236,7 @@ export default function Home() {
                 style={{
                   display: 'inline-block',
                   padding: '1rem 2.5rem',
-                  backgroundColor: '#B8860B',
+                  backgroundColor: '#722F37',
                   color: '#FAFAFA',
                   fontSize: '0.8rem',
                   fontWeight: 600,

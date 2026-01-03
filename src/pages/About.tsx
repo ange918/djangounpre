@@ -23,7 +23,7 @@ export default function About() {
     fontWeight: 400,
     letterSpacing: '0.2em',
     textTransform: 'uppercase',
-    color: '#B8860B'
+    color: '#722F37'
   };
 
   const sectionStyles: CSSProperties = {
@@ -62,7 +62,7 @@ export default function About() {
     fontFamily: "'Playfair Display', serif",
     fontSize: 'clamp(1.25rem, 3vw, 2rem)',
     fontStyle: 'italic',
-    color: '#B8860B',
+    color: '#722F37',
     textAlign: 'center',
     lineHeight: 1.6,
     padding: 'clamp(2rem, 5vw, 4rem) clamp(1rem, 4vw, 2rem)',

@@ -63,7 +63,7 @@ export default function ProductCard({ product }: ProductCardProps) {
     fontFamily: "'Montserrat', sans-serif",
     fontSize: '0.9rem',
     fontWeight: 600,
-    color: '#B8860B',
+    color: '#722F37',
     marginBottom: '1rem'
   };
 
@@ -130,7 +130,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             rel="noopener noreferrer"
             style={{
               ...buttonStyles,
-              backgroundColor: '#25D366',
+              backgroundColor: '#722F37',
               color: '#fff'
             }}
           >
